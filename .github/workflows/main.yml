@@ -4,7 +4,7 @@ name: WC2026 Daily Predictor
 
 on:
   schedule:
-    - cron: "9 2 * * *"   # 09:09 VN tự động hằng ngày
+    - cron: "9 1 * * *"   # 09:09 VN tự động hằng ngày
   workflow_dispatch:
     inputs:
       predict_date:
